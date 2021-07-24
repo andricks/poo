@@ -21,7 +21,7 @@ public  class heroe implements funciones {
 
 	@Override
 	public void atacar() {
-		System.out.println("atacar elfo");
+		System.out.println("heroe atacar");
 		
 	} 
 

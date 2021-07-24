@@ -6,12 +6,5 @@ public class jerarquia {
 	public String name ; 
 	
 	
-	
-		public void attedclass () {
-		System.out.println("attedclass");
-	}
-		 public void eatSandwich() {
-			 System.out.println("eatSandwich");
-		 }
 	}
 

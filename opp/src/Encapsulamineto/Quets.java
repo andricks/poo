@@ -1,45 +1,37 @@
 package Encapsulamineto;
 
 public class Quets {
-	private static final int NOT_PICKED = 0 ; 
-	private static final int PICKED = 1; 
-	private static final int COMPLETD = 2 ;
+	private static final int ganar = 0 ; 
+	private static final int perder = 1; 
 	
-	private String title ;
-	private int reward ; 
-	private int  status ; 
+	
+	private String nombre ;
+	private int vida ; 
+	
 	
 	public Quets(String title , int reward , int status ) {
 		
-		this.title= title ;
-		this.reward = reward ; 
-		this.status = status ; 
+		this.nombre= nombre ;
+		this.vida = vida ; 
+		
 		
 	}
 
-	public String getTitle() {
-		return title;
+	public String getnombre() {
+		return nombre;
 	}
 
-	public void setTitle(String title) {
-		this.title = title;
+	public void setnombre(String nombre) {
+		this.nombre = nombre;
 	}
 
-	public int getReward() {
-		return reward;
+	public int getvida() {
+		return vida;
 	}
 
-	public void setReward(int reward) {
-		this.reward = reward;
+	public void setvida(int vida) {
+		this.vida = vida;
 	}
 	
-	public void changeToPICKED() {
-		this.status = PICKED ;
-	}
-	public void changeToNOT_PICKED() {
-		this.status = NOT_PICKED ;
-	}
-    public void changeToCOMPLETD() {
-	    this.status = COMPLETD ;
-}
+
 }

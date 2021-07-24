@@ -1,12 +1,9 @@
 package Herencia;
 
-public class heroe extends jerarquia{
+public  class Elfo extends jerarquia {
 	
 	public String atacar ;
 	
-	
 
-	
 	
 }
-
